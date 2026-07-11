@@ -62,6 +62,10 @@ Both size and location influence property prices, but location — specifically 
 ├── data/
 │   ├── brasil-real-estate-1.csv
 │   └── brasil-real-estate-2.csv
+├── images/
+│   ├──correlation.png
+│   ├──region_boxplot.png
+│   └── states_boxplot.png
 ├── Brazil Housing Market - Exploratory Data Analysis.ipynb
 └── README.md
 ```
