@@ -41,6 +41,7 @@ Tools: `pandas`, `numpy`, `matplotlib`, `seaborn`
 - **Area is a moderate positive predictor of price overall** (r ≈ 0.53), but this single number hides a lot of regional variation.
 - **The area-price relationship is strongest in the North and Northeast** (size is a reliable price predictor there) and **weakest in the Southeast**, Brazil's most urban, densely populated region — where small properties can command high prices due to proximity to city centers rather than size.
 - **Apartments show a stronger area-price correlation (r ≈ 0.65) than houses (r ≈ 0.54)**, suggesting non-size factors matter more for house pricing.
+  
 ![Correlation Analysis](images/correlation.png)
 - **`price_per_m2` reveals a "law of diminishing returns"** — smaller properties consistently command a higher price per square meter than larger ones.
 - **Location effects are large in absolute terms:** the median `price_per_m2` in Rio de Janeiro (~ $2,211) is roughly 2.5–3x that of the least expensive states like Mato Grosso do Sul (~ $685) — meaning an identically sized property is worth dramatically more based on where it sits.
