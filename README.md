@@ -44,7 +44,7 @@ Tools: `pandas`, `numpy`, `matplotlib`, `seaborn`
 - **Apartments show a stronger area-price correlation (r ≈ 0.65) than houses (r ≈ 0.54)**, suggesting non-size factors matter more for house pricing.
 - **`price_per_m2` reveals a "law of diminishing returns"** — smaller properties consistently command a higher price per square meter than larger ones.
 - **Location effects are large in absolute terms:** the median `price_per_m2` in Rio de Janeiro (~ $2,211) is roughly 2.5–3x that of the least expensive states like Mato Grosso do Sul (~ $685) — meaning an identically sized property is worth dramatically more based on where it sits.
-![Price_per m2 Distribution](images/states_boxplot)
+![Price_per m2 Distribution](images/states_boxplot.png)
 - **Variance decomposition** shows within-state variance exceeds between-state variance (ratio < 1), indicating that once you're inside a given state, factors like property type and size still account for meaningful price variation — location narrows the range but doesn't fully determine it.
 - A strong lat/lon correlation (~0.75) was also observed, but this is a **geographic artifact** of Brazil's coastline shape and regional listing density, not a substantive finding.
 
